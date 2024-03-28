@@ -1,0 +1,11 @@
+circulo cromatico
+paleta 3-5 cores desconsiderando preto e branco
+cores complementares, opostas no circulo cromatico
+cores analogas, proxiomas no circulo cromatico
+cores analogas relacionadas, duas proximas no circulo cromatico pula uma e escolhe a proximacores intercaladas
+https://color.adobe.com/pt/create/color-wheel
+https://paletton.com
+https://coolors.co/0d1321-1d2d44-3e5c76-748cab-f0ebd8
+https://fonts.google.com
+https://www.dafont.com
+whatfontis.com

@@ -1,0 +1,16 @@
+shorthands:
+
+font: font-style font-weight font-size font-family
+background: color image position repeat [size] attachment
+[ainda não funciona em varios navegadores, mas segundo a documentação é pra funcionar]
+----------------------------------------------------------------------------
+
+tudo que em html é id    em css é #
+tudo que em html é class em css é .
+
+nas css:
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children

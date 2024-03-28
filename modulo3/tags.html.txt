@@ -1,0 +1,35 @@
+<h1>titulo de ierarquia 1(titulos de ierarquias inferiores digite numeros inferiores)
+<p>paragrafo
+<img src="diretório da imagem" alt="texto alternativo">imagem (imagens com direito de uso: pexels)
+<hr>linha horizontal
+<br>quebra de linha
+<!---->comentario
+&#xcodigo emoji, codigo no site emojipedia.org
+favicon.io
+<b>negrito não semantico
+<strong>negrito semantico
+<i>italico nao semantico
+<en>italico semantico
+<mark>texto marcado
+<small>letras pequenas
+<del>texto deletado/riscado
+<ins>texto sublinhado com semantica
+<u>texto sublinhado sem semantica
+<sup>texto sobrescrito ex.: 2 "ao quadrado"
+<sub>texto sobrescrito ex.: H"2"O
+<code>fonte monoespaçada, para codigos
+<pre>formatação do texto igual a do editor de codigo
+<q>citação simples
+<blockquote>citação complexa
+<abbr title="texto">abreveação, ao passar o mouse em cima mostra o texto em title
+<bdo>inverte o texto(pq isso existe?)
+<ol>listas ordenadas
+<ul>listas não ordenadas
+<li>item das listas
+<dl>lista de definição
+<dt>termo
+<dd>definição do termo
+<a>link
+<source>imagens dinamicas
+<audio src="midia/Portal2-3x12-Cara_Mia_Addio.mp3" controls></audio>
+<video>video

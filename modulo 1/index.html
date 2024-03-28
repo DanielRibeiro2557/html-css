@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+        <title>modulo 1</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                color: brown;
+            }
+            mark{
+                background-color: limegreen;
+            }
+            h2{
+                color: brown;
+            }
+            h3{
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: blueviolet;">Paragrafos e quebras de linha</h1>
+            <hr>
+            <p>paragrafo</p>
+            <p>quebra de linha <br> com a tag &lt;br&gt;</p>
+            <p>simbolos e emojis: <br>&reg;&copy;</p>
+            <p>&#x1F596;&#x1F913;</p>
+        <h1>Imagens</h1>
+            <hr>
+            <img src="html.png" alt="html 5 logo">
+        <h1>Negrito/Itálico</h1>
+            <hr>
+            <p>texto em <b>negrito</b>, não semantica, com a tag <b>&lt;b&gt;</b></p>
+            <p>texto em <strong>negrito</strong>, de forma semantica, com a tag <strong>&lt;strong&gt;</strong></p>
+            <p>texto em <i>itálico</i>, não semantico, com a tag <i>&lt;i&gt;</i></p>
+            <p>texto em <en>italico</en>, semantico com a tag <en>&lt;en&gt;</en></p>
+        <h1>Outras Formatações</h1>
+            <hr>
+            <h2>Marcadores</h2>
+                <p>texto <mark style="background-color: lime;">marcado</mark> com a tag <mark style="background-color: turquoise;">&lt;mark&gt;</mark></p>
+                <p>texto <big>grande</big> e <small>pequeno</small>(a tag big está obsoleta)</p>
+            <hr>
+            <h2>Texto Deletado/Inserido</h1>
+                <p>texto <del>deletado</del>, para indicar que deve ser lido mas não considerado, e texto <ins>incerido</ins>, para dar enfase e indicar que ele foi adicionado depois</p>
+                <p>existe tabmem o texto <u>sublinhado</u> com a tag <u>&lt;u&gt;</u> não semantica</p>
+            <hr>
+            <h2>Texto Sobrescrito e Subscrito</h1>
+                <p>para incerir coisas como x<sup>5</sup>+2 (sobrescrito) e H<sub>2</sub>O (subscrito)</p>
+            <hr>
+            <h2>Codigos</h2>
+                <p>o comando <code>document.getElementById('teste')</code> é escrito em JavaScript</p>
+                <p>ja o codigo: <br>
+                    <pre>
+                        <code>
+num = int(input('digite um numero'))
+if num % 2 == 0:
+    print(f'o numero {num} é par')
+else:
+    print(f'o numero {num} é impar')
+print('fim do programa')
+                        
+                        </code>
+                    </pre>
+                </p>
+            <hr>
+            <h2>Citações</h2>
+                <h3>Simples</h3>
+                    <p>como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+                <h3>Complexas</h3>
+                    <p>segundo Jeff Noble, no seu livro HTML para leigos:</p>
+                    <blockquote>
+                        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capitulo descrevem o bloco de texto
+                    </blockquote>
+            <hr>
+            <h2>Abreviações</h2>
+                <p><abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+            <hr>
+            <h2>Texto invertido</h2>
+                <p><bdo dir="rtl">por que isso existe?</bdo></p>
+            <hr>
+        <h1>Listas</h1>
+            <h2>Ordenadas</h2>
+                <ol>
+                    <li >cavar uma cova</li>
+                    <li>enterrar um corpo</li>
+                    <li>comer macarrão</li>
+                    <li>estudar necromancia</li>
+                    <li>passar roupa</li>
+                </ol>
+            <h2>Não Ordenadas</h2>
+                <ul>
+                    <li>café</li>
+                    <li>pão</li>
+                    <li>leite</li>
+                </ul>
+            <h2>Juntando listas</h2>
+                <p>linguagens de programação</p>
+                <ol>
+                    <li>antigas</li>
+                        <ol type="a">
+                            <li>Clipper</li>
+                            <li>Visual Basic</li>
+                            <li>Fortran</li>
+                            <li>Delphi</li>
+                        </ol>
+                    <li>novas</li>
+                        <ol type="a" start="5">
+                            <li>PHP</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Kotlin</li>
+                        </ol>
+                </ol>
+                <p>jorges favoritos</p>         
+                       <ol>
+                            <li>nes</li>
+                                <ul type="square">
+                                    <li>mario bros</li>
+                                    <li>ninja gaiden</li>
+                                </ul>
+                            <li>snes</li>
+                                <ul type="square">
+                                    <li>mario</li>
+                                    <li>donkey kong</li>
+                                </ul>
+                            <li>ps</li>
+                                <ul type="square">
+                                    <li>final fantasi</li>
+                                    <li>castelvania</li>
+                                </ul>
+                       </ol>
+            <h2>Definições</h2>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>linguagem de marcação para a criação de uma site</dd>
+                </dl>
+            <hr>
+        <h1>Links</h1>
+            <h2>Externos</h2>
+                <p>link do repositorio do GitHub do <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">curso de html e css</a> que eu fiz pelo <a href="https://cursoemvideo.com" target="_blank" rel="external">curso em video</a></p>
+            <h2>Internos</h2>
+                <p></p><a href="pg2.html" target="_self" rel="next">página 2</a> do site</p>
+                <a href="nova/pg3.html" target="_self" rel="next">página 3</a>
+            <h2>Download</h2>
+                <a href="midia/Portal2-3x12-Cara_Mia_Addio.mp3" download="Portal2-3x12-Cara_Mia_Addio.mp3" type="audio/mpeg">cara mia addio</a>
+            <hr>
+        <h1>Mídias</h1>
+            <h2>Imagens Dinâmicas</h2>
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                    <img src="imagens/foto-g.png" alt="">
+                </picture>
+            <h2>Áudio</h2>
+                <audio preload="metadata" controls>
+                    <source src="midia/Portal2-3x12-Cara_Mia_Addio.mp3" type="audio/mpeg">
+                    <p>infelizmente seu navegador não consegue carregar audio. clique <a href="midia/Portal2-3x12-Cara_Mia_Addioo.mp3" download="Portal2-3x12-Cara_Mia_Addio.mp3" type="audio/mpeg">aqui</a> para baixar o arquivo</p>
+                </audio>
+            <h2>Vídeo</h2>
+                <h3>Hopedagem local</h3>
+                    <video width="560" controls>
+                        <source src="pexels_videos_2583469 (2160p).mp4" type="video/mp4">
+                        <source src="pexels_videos_2583469 (2160p).m4v" type="video/mp4">
+                        <source src="pexels_videos_2583469 (2160p).webm" type="video/webm">
+                        <source src="pexels_videos_2583469 (2160p).ogv" type="video/ogg">
+                        <p>seu navegador não é compativel com videos</p>
+                    </video>
+                <h3>Vídeo do YouTube</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/inbUgkcLskw?si=y_72Sr0_EmV5I4M3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    </body>
+</html>

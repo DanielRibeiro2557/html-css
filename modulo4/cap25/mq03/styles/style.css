@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*Versão mobile first*/
+
+/*
+Typical breakpoints
+
+
+Telas pequenas: até 600px
+Celular: entre 600px e 768px
+Tablet: entre 768px e 992px
+Desktop: entre 992px e 1200px
+Telas grandes: apartir de 1200px
+*/
+
+@media all {
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    html{
+        height: 100vh;
+    }
+
+    body{
+        background: black url(../imagens/back-phone.jpg) center center no-repeat /*atachment*/;
+        background-size: cover;
+    }
+
+    main{
+        background-color: rgba(255, 255, 255, 0.644);
+        width: 80vw;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+    }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+
+    img#fone{ display: block; }
+    img#tablet{ display: none; }
+    img#print{ display: none; }
+    img#pc{ display: none; }
+    img#tv{ display: none; }
+}
+
+/*Impressora*/
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background: white url(../imagens/back-print.jpg); /* desnecessario*/
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    img#fone{ display: none; }
+    img#tablet{ display: none; }
+    img#print{ display: block; }
+    img#pc{ display: none; }
+    img#tv{ display: none; }
+    main::after{
+        content: 'Esse site foi impresso atravez do site danielribeiro2557.github.io';
+        text-decoration: overline;
+    }
+}
+
+/*Tablet*/
+@media screen and (768px <= width <= 992px) {
+    body{
+        background: black url(../imagens/back-tablet.jpg) center center no-repeat /*atachment*/;
+        background-size: cover;
+
+    }
+    img#fone{ display: none; }
+    img#tablet{ display: block; }
+    img#print{ display: none; }
+    img#pc{ display: none; }
+    img#tv{ display: none; }
+}
+
+/*PC*/
+@media screen and (992px <= width <= 1200px) {
+    body{
+        background: black url(../imagens/back-pc.jpg) center center no-repeat /*atachment*/;
+        background-size: cover;
+    }
+    img#fone{ display: none; }
+    img#tablet{ display: none; }
+    img#print{ display: none; }
+    img#pc{ display: block; }
+    img#tv{ display: none; }
+}
+
+/*TVs ou telas grandes*/
+@media screen and (1200px <= width) {
+    body{
+        background: black url(../imagens/back-tv.jpg) center center no-repeat /*atachment*/;
+        background-size: cover;
+    }
+    img#fone{ display: none; }
+    img#tablet{ display: none; }
+    img#print{ display: none; }
+    img#pc{ display: none; }
+    img#tv{ display: block; }
+}

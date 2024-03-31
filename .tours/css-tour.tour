@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "css-tour",
+  "steps": [
+    {
+      "file": "modulo4/cap25/mq02/style/style.css",
+      "description": "configurações gerais",
+      "line": 1
+    },
+    {
+      "file": "modulo4/cap25/mq02/style/style.css",
+      "description": "configurações em pé (portrait)",
+      "line": 25
+    },
+    {
+      "file": "modulo4/cap25/mq02/style/style.css",
+      "description": "configurações deitado (landscape)",
+      "line": 34
+    }
+  ],
+  "ref": "main"
+}

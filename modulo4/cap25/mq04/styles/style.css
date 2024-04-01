@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+@media all{
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    body, html{
+        background-color: lightgrey;
+    }
+
+    header{
+        background-color: grey;
+    }
+
+    h1{
+        padding: 10px;
+        text-align: center;
+    }
+
+    span#burguer{
+        background-color: rgb(53, 53, 53);
+        color: white;
+        display: block;
+        padding: 10px;
+        cursor: pointer;
+        transition: .4s;
+        text-align: center;
+    }
+
+    span#burguer:hover{
+        background-color: white;
+        color: black;
+    }
+
+    menu{
+        display: none;
+    }
+
+    menu>ul{
+        list-style-type: none;
+    }
+
+    menu>ul>li>a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgb(88, 88, 88);
+        color: white;
+        border-top: 2px solid grey;
+        text-align: center;
+        transition: .3s;
+    }
+
+    menu>ul>li>a:hover{
+        background-color: grey;
+        color: white;
+    }
+
+    main{
+        width: 90vw;
+        background-color: white;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    article>h2{
+        padding-bottom: 10px;
+    }
+
+    article>p{
+        text-align: justify;
+        margin-bottom: 20px;
+        text-indent: 20px;
+    }
+}
+
+@media screen and (768px<=width) {
+    main{
+        width: calc(768px - 10%);
+    }
+
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu>ul>li{
+        display: inline-block;
+    }
+}

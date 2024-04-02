@@ -1,6 +1,9 @@
 # html-css
- Repositório do curso de HTML e CSS do curso em vídeo
+ Projetos do curso de HTML e CSS do curso em vídeo
 
-- <a href="https://danielribeiro2557.github.io/projeto-android/">Projeto android</a> <br>
-- <a href="https://danielribeiro2557.github.io/projeto-cordel/">Projeto cordel</a> <br>
-- <a href="https://danielribeiro2557.github.io/projeto-social/">Projeto social</a>
+- [Projeto android](https://danielribeiro2557.github.io/projeto-android/)
+- [Projeto cordel](https://danielribeiro2557.github.io/projeto-cordel/)
+- [Projeto social](https://danielribeiro2557.github.io/projeto-social/)
+- [Projeto login](https://danielribeiro2557.github.io/projeto-login/)
+
+Repósitorio disponivel no [GitHub](https://github.com/DanielRibeiro2557/html-css/)
